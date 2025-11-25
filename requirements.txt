@@ -1,0 +1,13 @@
+# 核心依赖（与训练环境完全匹配，确保可复现）
+torch==2.0.0+cpu
+torchvision==0.15.1+cpu
+mmengine==0.10.7
+mmsegmentation==1.2.2
+mmcv==2.0.0（与 mmsegmentation==1.2.2 兼容）
+opencv-python==4.12.0.88
+numpy==1.24.3
+ftfy==6.1.1
+pillow==9.5.0
+
+# matplotlib==3.7.5  # 仅用于本地可视化，非提交必需
+# requests==2.32.4  # 非训练必需
