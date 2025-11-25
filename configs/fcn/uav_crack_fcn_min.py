@@ -156,7 +156,7 @@ test_pipeline = [
     dict(type='PackSegInputs')
 ]
 
-# 评估器配置：保持与官方一致，确保指标计算准确
+# 评估器配置：确保指标计算准确
 val_evaluator = dict(
     type='IoUMetric',
     iou_metrics=['mIoU'],
