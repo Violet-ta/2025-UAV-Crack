@@ -9,5 +9,5 @@ numpy==1.24.3
 ftfy==6.1.1
 pillow==9.5.0
 
-# matplotlib==3.7.5  # 仅用于本地可视化，非提交必需
+# matplotlib==3.7.5  # 仅用于本地可视化
 # requests==2.32.4  # 非训练必需
